@@ -1,0 +1,26 @@
+#blogpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.postContainer {
+    margin-top: 0.5cm;
+    margin-left: 4.4cm;
+    display: flex;
+    flex-direction: column;
+    width: 21.7cm;
+    flex-direction: column;
+    border-bottom: solid 1px;;
+}
+
+.postContainer > h2 {
+    flex: 0.1;
+}
+
+.postContainer > p.timestampt {
+    flex: 0.1;
+}
+
+.postContainer > p.postContent {
+    flex: 0.9;
+}
