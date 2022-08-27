@@ -1,0 +1,10 @@
+#aboutpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutSections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
