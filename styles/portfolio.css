@@ -9,8 +9,29 @@
 }
 
 .projectTiles {
+    display: flex;
+    flex-direction: column;
     width: 6cm;
     aspect-ratio: 1/1.2;
     margin-top: 1cm;
     background-color: cyan;
+    border-radius: 0.3cm;
 }
+
+.projectTiles > *{
+    border-radius: 0.3cm;
+}
+
+.projectTiles:hover {
+    /* comment */
+}
+
+.projectImage{
+    flex:0.7;
+}
+
+.projectTitleDesc {
+    flex: 0.3;
+    margin-left: 0.1cm;
+}
+
