@@ -1,4 +1,62 @@
 * {
     padding: 0%;
     margin: 0%;
+    border: solid; /*for visibility of elements*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    display: flex;
+}
+
+.navsection {
+
+}
+
+#namesection{
+    flex: 0.7;
+}
+
+#name {
+    display: inline-block;
+}
+
+#buttonsection {
+    display: flex;
+    flex: 0.3;
+}
+
+.navbutton {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#subtitle {
+    
+}
+
+#mainpage {
+    display: flex;
+}
+
+.mainsections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainContentSection {
+    display: flex;
+    flex: 0.7;
+}
+
+#mainTextSection {
+    display: flex;
+    flex: 0.3;
 }
