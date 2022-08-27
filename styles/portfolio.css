@@ -1,0 +1,16 @@
+#portfoliopage {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectTiles {
+    width: 6cm;
+    aspect-ratio: 1/1.2;
+    margin-top: 1cm;
+    background-color: cyan;
+}

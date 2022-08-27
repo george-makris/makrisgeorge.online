@@ -1,7 +1,8 @@
 * {
     padding: 0%;
     margin: 0%;
-    border: solid; /*for visibility of elements*/
+    /* for visibility of elements */
+    border: solid;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 }
 
 .navsection {
-
+    background-color: lightskyblue;
 }
 
 #namesection{
@@ -38,7 +39,7 @@ body {
 }
 
 #subtitle {
-    
+    font-family: "Helvetica Neue";
 }
 
 #mainpage {
