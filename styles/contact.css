@@ -1,0 +1,13 @@
+#contactpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1cm;
+    height: 15cm;
+}
+
+.contactItem {
+    display: flex;
+    gap: inherit;
+}   
