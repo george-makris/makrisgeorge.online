@@ -19,6 +19,7 @@
 
 .postContainer > p.timestampt {
     flex: 0.1;
+    font-style:italic;
 }
 
 .postContainer > p.postContent {

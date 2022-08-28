@@ -16,6 +16,7 @@
     margin-top: 1cm;
     background-color: cyan;
     border-radius: 0.3cm;
+    border: solid;
 }
 
 .projectTiles > *{
@@ -23,7 +24,8 @@
 }
 
 .projectTiles:hover {
-    /* comment */
+    box-shadow: 10px 10px 0px #D5B942;
+    transition-duration: 0.1s;
 }
 
 .projectImage{
@@ -32,6 +34,8 @@
 
 .projectTitleDesc {
     flex: 0.3;
-    margin-left: 0.1cm;
+    /* margin-left: 0.1cm; */
+    background-color: white;
+    border-radius: 0% 0% 0.3cm 0.3cm;
 }
 

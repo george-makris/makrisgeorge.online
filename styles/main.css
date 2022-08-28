@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
     /* for visibility of elements */
-    border: solid;
+    /* border: solid; */
     font-family: "Helvetica Neue";
 }
 
@@ -16,7 +16,8 @@ body {
 }
 
 .navsection {
-    background-color: lightskyblue;
+    background-color: #00308F;
+    color: white;
 }
 
 #namesection{
@@ -27,6 +28,19 @@ body {
     display: inline-block;
     text-decoration: none;
     font-size: 24pt;
+    color: inherit;
+    padding-left: 0.1cm;
+}
+
+#name:hover {
+    color: #D5B942;
+    transition-duration: 0.2s;
+}
+
+#subtitle {
+    font-family: "Helvetica Neue";
+    padding-left: 0.2cm;
+    font-style: italic;
 }
 
 #buttonsection {
@@ -39,10 +53,19 @@ body {
     flex: 1;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: inherit;
 }
 
-#subtitle {
-    font-family: "Helvetica Neue";
+.navbutton:hover {
+    background-color: #D5B942;
+    color: #00308F ;
+    transition-duration: 100ms;
+}
+
+.navbutton:active {
+    background-color: #D5B942;
+    color: black;
 }
 
 #mainpage {
