@@ -84,10 +84,6 @@ body {
     justify-content: flex-start;
 }
 
-#mainContentSection > img {
-    /* width: 26.4cm; */
-}
-
 #mainTextSection {
     display: flex;
     flex: 0.3;
